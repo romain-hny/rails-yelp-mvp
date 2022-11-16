@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+.container {
+  background-color: aliceblue;
+  padding: 2em;
+  margin-top: 2em;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom-style: solid;
+  border-color: black;
+}
+
+#navbar {
+  border-bottom: 2em;
+  border-color: black;
+}
+
+body {
+  background-image: url('restaurant.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}

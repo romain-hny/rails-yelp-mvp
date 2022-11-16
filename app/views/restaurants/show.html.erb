@@ -1,7 +1,7 @@
-<h1>Restaurant: <%= @restaurant.name %></h1>
-<%= @restaurant.address %> <br>
-<%= @restaurant.phone_number %> <br>
-<%= @restaurant.category %> <br>
+<h1><%= @restaurant.name %></h1>
+Address      : <%= @restaurant.address %> <br>
+Phone number : <%= @restaurant.phone_number %> <br>
+Food style   : <%=  @restaurant.category %> <br>
 <br>
 
 <p><strong>Reviews</strong></p>
@@ -20,5 +20,3 @@
   <%= f.submit %>
 <% end %>
 </ul>
-<br><br>
-<%= render 'shared/home' %>
